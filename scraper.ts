@@ -7,5 +7,9 @@ const JINA_AI_URL_SCRAPE_TEMPLATE = 'https://r.jina.ai/{URL}';
  * @param url The URL to scrape.
  * @returns The scraped content as Markdown.
  */
-export const scrape = (url: string):  string => JINA_AI_URL_SCRAPE_TEMPLATE.replace('{URL}', url);
+export const scrape = async (url: string):  Promise<string> => {
+    const targetUrl = JINA_AI_URL_SCRAPE_TEMPLATE.replace('{URL}', url);
+    const response = await fetch(targetUrl);
+    return response.text();
+}
 

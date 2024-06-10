@@ -1,4 +1,6 @@
+# Markdown Scraper
 
+## Features
 
 ## Installation
 
@@ -33,3 +35,18 @@ npm install @jeff/markdown-scraper
 ```shell
 yarn add @jeff/markdown-scraper
 ```
+
+## Usage
+
+Here's a quick example of how to use Markdown Scraper in your project:
+```typescript
+// TODO: Add example
+```
+
+## Contributing
+
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
+
+## License
+
+Markdown Scraper is licensed under the [MIT License](https://opensource.org/licenses/MIT).

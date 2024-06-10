@@ -1,7 +1,14 @@
 # Markdown Scraper
 
+The Jina.ai Web Scraping Module is a lightweight Python package that simplifies data extraction from web pages. It provides a convenient scrape function that allows you to retrieve relevant information and convert it into Markdown format.
+
 ## Features
 
+1. Easy-to-Use API: The scrape function abstracts away the complexities of web scraping. Simply provide a URL, specify the desired data elements, and let the module handle the rest.
+2. Markdown Output: Extracted data is automatically formatted as Markdown, making it easy to integrate into your documentation, reports, or other Markdown-based content.
+3. Customizable Selectors: Customize your scraping process by specifying CSS selectors or XPath expressions to target specific elements on the page.
+4. Robust Error Handling: The module gracefully handles common issues such as missing elements, invalid URLs, and connection errors.
+ 
 ## Installation
 
 To install Markdown Scraper, use the appropriate command for your package manager:

@@ -1,5 +1,8 @@
 {
   "tasks": {
     "dev": "deno run --watch main.ts"
-  }
+  },
+  "name": "@jeff/markdown-scraper",
+  "version": "0.1.0",
+  "exports": "./mod.ts"
 }
